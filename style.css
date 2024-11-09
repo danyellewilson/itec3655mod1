@@ -19,6 +19,13 @@ header h1 {
   font-size: 4rem;            
   margin: 0;                 
   text-transform: uppercase; 
+
+header img {
+  height: 4rem;               
+  width: auto;                
+  margin-left: 20px;          
+  display: block;
+}
   
 /* || Navigation Layout */
 ul {
