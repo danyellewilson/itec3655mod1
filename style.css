@@ -25,6 +25,7 @@ header img {
   width: auto;                
   margin-left: 20px;          
   display: block;
+  onject-fit: contain;
 }
   
 /* || Navigation Layout */
