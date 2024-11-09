@@ -43,11 +43,11 @@ li {
 a {
   text-decoration: none;      /* Remove underline from links */
   color: black;               /* Set the text color to black */
-  font-size: 1.6rem;          /* Adjust the font size of the menu items */
+  font-size: 2rem;          /* Adjust the font size of the menu items */
   text-transform: uppercase;  /* Make text uppercase */
 }
 
 span {
-  font-size: 1.6rem;          /* Make the "Home" span the same size */
+  font-size: 2rem;          /* Make the "Home" span the same size */
   text-transform: uppercase;  /* Make text uppercase */
 }
