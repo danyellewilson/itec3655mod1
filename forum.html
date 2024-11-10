@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Birdwatching Forum</title>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <div class="container">
+      <h1>Birdwatching Forum</h1>
+      <p>Share your experiences, tips, and sightings with fellow bird enthusiasts</p>
+    </div>
+  </header>
+
+  <!-- Nav Menu -->
+  <nav>
+         <ul>
+        <li><span>Home</span></li>
+        <li><a href="gettingstarted.html">Get started</a></li>
+        <li><a href="#">Photos</a></li>
+        <li><a href="#">Gear</a></li>
+        <li><a href="#">Forum</a></li>
+      </ul>
+
+  </nav>
+
+  <!-- Main Content Section -->
+  <main>
+
+    <!-- Forum Categories Section -->
+    <section id="categories">
+      <h2>Forum Categories</h2>
+      <p>Explore topics and discussions in the following categories:</p>
+      <div class="categories">
+        <div class="category">
+          <h3>Bird Identification</h3>
+          <p>Ask for help in identifying species or share your knowledge.</p>
+        </div>
+        <div class="category">
+          <h3>Birdwatching Locations</h3>
+          <p>Discuss the best places to observe birds in your area.</p>
+        </div>
+        <div class="category">
+          <h3>Photography Tips</h3>
+          <p>Share your bird photography techniques and ask for advice.</p>
+        </div>
+        <div class="category">
+          <h3>General Discussion</h3>
+          <p>Chat about anything related to birdwatching!</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Popular Topics Section -->
+    <section id="popular">
+      <h2>Popular Topics</h2>
+      <div class="popular-topics">
+        <div class="topic">
+          <h3><a href="#">How to Spot Rare Birds in Your Area?</a></h3>
+          <p>Join the discussion on tips and tricks for finding rare birds in different habitats.</p>
+        </div>
+        <div class="topic">
+          <h3><a href="#">Best Birdwatching Gear for Beginners</a></h3>
+          <p>Share your favorite binoculars, cameras, and field guides for new birdwatchers.</p>
+        </div>
+        <div class="topic">
+          <h3><a href="#">Birdwatching in the Fall: What to Look For</a></h3>
+          <p>Talk about the best birds to spot during the fall migration season.</p>
+        </div>
+        <div class="topic">
+          <h3><a href="#">Bird Photography: Top Tips for Capturing Action Shots</a></h3>
+          <p>Discuss techniques and camera settings for photographing birds in flight.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Create a Post Section -->
+    <section id="create-post">
+      <h2>Create a New Post</h2>
+      <form action="#" method="post">
+        <label for="topic-title">Topic Title:</label>
+        <input type="text" id="topic-title" name="topic-title" required><br>
+
+        <label for="category">Category:</label>
+        <select id="category" name="category" required>
+          <option value="identification">Bird Identification</option>
+          <option value="locations">Birdwatching Locations</option>
+          <option value="photography">Photography Tips</option>
+          <option value="general">General Discussion</option>
+        </select><br>
+
+        <label for="content">Content:</label><br>
+        <textarea id="content" name="content" rows="6" required></textarea><br>
+
+        <button type="submit">Post Topic</button>
+      </form>
+    </section>
+
+  </main>
+
+</body>
+</html>
