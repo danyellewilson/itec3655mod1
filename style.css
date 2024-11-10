@@ -40,6 +40,13 @@ header img {
   display: block;
   object-fit: contain;
 }
+
+h2 {
+  font-size: 4rem; 
+  margin: 20px 0;  
+  text-transform: uppercase;  
+  color: #333;
+}
   
 /* || Navigation Layout */
 ul {
