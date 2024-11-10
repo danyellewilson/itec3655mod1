@@ -69,10 +69,10 @@ li {
 }
 
 a {
-  text-decoration: none;      /* Remove underline from links */
-  color: black;               /* Set the text color to black */
-  font-size: 2rem;          /* Adjust the font size of the menu items */
-  text-transform: uppercase;  /* Make text uppercase */
+  text-decoration: underline;     
+  color: black;               
+  font-size: 2rem;          
+  text-transform: uppercase;  
 }
 
 span {
