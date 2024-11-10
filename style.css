@@ -16,7 +16,7 @@ body {
   margin: 0 auto;
 }
 
-Header layout
+/* || Header layout */
 header{
   display: flex;
   align-items: center;
@@ -30,7 +30,7 @@ header h1 {
 }
 
 header img {
-  height: 2.0rem;               
+  height: 2rem;               
   width: auto;                
   margin-left: 20px;          
   display: block;
